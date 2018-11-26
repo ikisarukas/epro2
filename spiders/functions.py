@@ -33,26 +33,33 @@ def  urltoredis(r,infoclass,urlclass):
             url = genlnurl(m, n)
             print('url=',url)
             r.lpush(urlclass, url)
+    r.lpush(urlclass,'over')
 
 
 def redistostr(r,urlclass):
-    print('--------------URLCLASS--', urlclass)
-    kv = (r.brpop(urlclass, timeout=0))
-    url = kv[1].decode()
-    print('------redistostr----------', url)
-    return url
+    temp=''
+    # print('--------------URLCLASS--', urlclass)
+    kv = (r.rpop(urlclass))
+    # print('kv====',kv.decode())
+    if(kv):
+        temp = kv.decode()
+    print('------redistostr----------', temp)
+    print('type of url is ',type(temp))
+    return temp
 def urlfromredis(r,urlclass):
     list=[]
     url=redistostr(r,urlclass)
+    count=0
     while (url!='over'):
         list.append(url)
+        print('count=',count)
+        url = redistostr(r, urlclass)
+        print('temp url   ------------------',url)
+        count+=1
+    for i in list:
+        print('i  in list  is ',i)
     return list
 
-#     print('--------urlfromredis--------',url)
-#
-#     #     url = redistostr(r, urlclass)
-#     #     print('damn  damn')
-#     print('sdfsdfsdfsdfsadf')
 
 
 
