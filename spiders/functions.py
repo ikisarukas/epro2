@@ -7,8 +7,7 @@ def conredis():
     pool=redis.ConnectionPool(host=redis_host,port=redis_port,db=redis_db)
     r=redis.Redis(connection_pool=pool)
     return r
-def conmysql():
-    pass
+
 
 #lightnovel.cn
 
@@ -24,7 +23,7 @@ def genlnurl(type,i):
         url=''
     return url
 
-def  urltoredis(r,infoclass,urlclass):
+def  urltoredis(r,infoclass):
     # infoclass=('news','latestnovel','novel')
     # urlclass='lightnovel'
     for m in infoclass:
@@ -32,34 +31,39 @@ def  urltoredis(r,infoclass,urlclass):
         for n in range(1, pages + 1):
             url = genlnurl(m, n)
             print('url=',url)
-            r.lpush(urlclass, url)
-    r.lpush(urlclass,'over')
+            r.lpush(m, url)
+        r.lpush(m,'over')
 
 
-def redistostr(r,urlclass):
+def redistostr(r,infoclass):
     temp=''
     # print('--------------URLCLASS--', urlclass)
-    kv = (r.rpop(urlclass))
+    kv = (r.rpop(infoclass))
     # print('kv====',kv.decode())
     if(kv):
         temp = kv.decode()
     print('------redistostr----------', temp)
     print('type of url is ',type(temp))
     return temp
-def urlfromredis(r,urlclass):
+def urlfromredis(r,infolclass):
     list=[]
-    url=redistostr(r,urlclass)
-    count=0
-    while (url!='over'):
-        list.append(url)
-        print('count=',count)
-        url = redistostr(r, urlclass)
-        print('temp url   ------------------',url)
-        count+=1
-    for i in list:
-        print('i  in list  is ',i)
-    return list
+    for  i in infolclass:
+        url = redistostr(r, i)
+        count = 0
+        while (url != 'over'):
+            list.append(url)
+            print('count=', count)
+            url = redistostr(r, i)
+            print('temp url   ------------------', url)
+            count += 1
+            for k in list:
+                print('k  in list  is ', k)
 
+        yield [list,i]
+        list = []
+def  ln_title_url(l):
+    url_part0='https://www.lightnovel.cn/'
+    return  map(lambda x:url_part0+x,l)
 
 
 

@@ -5,10 +5,10 @@ import epro2.mythread as mythread
 import redis
 from epro2.settings import pages
 import epro2.spiders.functions as fn
+from epro2.items import LightnovelItem
 
 
 class LightnovelSpider(scrapy.Spider):
-    infoclass = ('news', 'novel', 'latestnovel')
     name = 'lightnovel'
     r=fn.conredis()
     r2=fn.conredis()
@@ -24,22 +24,27 @@ class LightnovelSpider(scrapy.Spider):
 
     def start_requests(self):
         infoclass=('news','latestnovel','novel')
-        urlclass='lightnovel'
         print("###########开始爬取列表##########")
-        t1=threading.Thread(target=fn.urltoredis,args=(self.r,infoclass,urlclass))
+        t1=threading.Thread(target=fn.urltoredis,args=(self.r,infoclass))
         t1.start()
         print('t1开始------------------')
 
-        t2=mythread.MyThread(fn.urlfromredis,args=(self.r2,urlclass,),name=fn.urlfromredis.__name__)
+        t2=mythread.MyThread(fn.urlfromredis,args=(self.r2,infoclass,),name=fn.urlfromredis.__name__)
         t2.start()
         print('t2开始------------------')
         t1.join()
         t2.join()
         print('t2  join开始------------------')
-        for i in t2.get_result():
-            # print('iiiiiiiiiiiiiiiiiiiii=',i)
-            yield scrapy.Request(url=i, meta={'url': i}, callback=self.parse
-                         )
+        result=t2.get_result()
+        print('tuple  result is  -------',result)
+        for item in result:
+            print('iiiiiiiiiiiiiiiiiiiii=',item)
+            # print('0===',item[0])
+            # print('1===', item[1])
+            for j in item[0]:
+                print(j)
+                yield scrapy.Request(url=j, meta={'url': j,'infoclass':item[1]}, callback=self.parse
+                             )
 
         #
         # t2.start()
@@ -48,9 +53,17 @@ class LightnovelSpider(scrapy.Spider):
 
 
     def parse(self, response):
-        msg=response.meta['url']
-        print('parse url is -------',msg)
-        partern_url = response.xpath("//tbody[starts-with(@id,'normalthread')]").extract()
-        for i in partern_url:
-            print('partern_url=',i)
+        infoclass=response.meta['infoclass']
+        print('parse url is -------',infoclass)
+        category = response.xpath("//tbody[starts-with(@id,'normalthread')]/tr/th/em/a/text()").extract()
+        title=response.xpath("//tbody[starts-with(@id,'normalthread')]//a[@class='s xst']/text()").extract()
+        url_part1=response.xpath("//tbody[starts-with(@id,'normalthread')]//a[@class='s xst']/@href").extract()
+        url=fn.ln_title_url(url_part1)
+        # for i in url:
+        #     print('partern_url=',i)
+        item=LightnovelItem()
+        item['category']=category
+        item['title']=title
+        item['url']=url
+        return item
 
