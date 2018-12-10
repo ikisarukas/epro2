@@ -1,8 +1,8 @@
 import redis
 from scrapy import Request
-from epro2.settings import redis_db,redis_host,redis_port
-from epro2.settings import pages
-
+from epro2.epro2.settings import redis_db,redis_host,redis_port
+from epro2.epro2.settings import pages
+# spider.lightnovel
 def conredis():
     pool=redis.ConnectionPool(host=redis_host,port=redis_port,db=redis_db)
     r=redis.Redis(connection_pool=pool)
@@ -63,8 +63,19 @@ def urlfromredis(r,infolclass):
         list = []
 def  ln_title_url(l):
     url_part0='https://www.lightnovel.cn/'
-    return  map(lambda x:url_part0+x,l)
+    re= map(lambda x:url_part0+x,l)
+    return list(re)
 
+#para for pipeline
+def sqlpara(a,b,c):
+    re= map(lambda x,y,z:'"'+x+'","'+y+'","'+z+'"',a,b,c)
+    return list(re)
 
-
-
+#####################################
+#智联
+def zl_starturls(keywork):
+    list=[]
+    for i in range(1,pages+1):
+        url="https://sou.zhaopin.com/?p="+str(i)+"&jl=765&kw="+keywork+"&kt=3"
+        list.append(url)
+    return list

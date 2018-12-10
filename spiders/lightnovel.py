@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
 import scrapy
 import threading
-import epro2.mythread as mythread
+import epro2.epro2.mythread as mythread
 import redis
-from epro2.settings import pages
-import epro2.spiders.functions as fn
-from epro2.items import LightnovelItem
+from epro2.epro2.settings import pages
+import epro2.epro2.spiders.functions as fn
+from epro2.epro2.items import LightnovelItem
 
 
 class LightnovelSpider(scrapy.Spider):
@@ -19,7 +19,7 @@ class LightnovelSpider(scrapy.Spider):
     header = {
         'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
         'Accept-Encoding': 'gzip,deflate,sdch',
-        'Accept-Language': 'zh-CN,zh;q=0.8'
+        'Accept-Language': 'zh-CN,zh;q=0.8',
     }
 
     def start_requests(self):
@@ -59,11 +59,13 @@ class LightnovelSpider(scrapy.Spider):
         title=response.xpath("//tbody[starts-with(@id,'normalthread')]//a[@class='s xst']/text()").extract()
         url_part1=response.xpath("//tbody[starts-with(@id,'normalthread')]//a[@class='s xst']/@href").extract()
         url=fn.ln_title_url(url_part1)
+
         # for i in url:
         #     print('partern_url=',i)
         item=LightnovelItem()
         item['category']=category
         item['title']=title
         item['url']=url
+        item['infoclass']=infoclass
         return item
 

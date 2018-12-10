@@ -15,3 +15,5 @@ class LightnovelItem(scrapy.Item):
     category=scrapy.Field()
     title=scrapy.Field()
     url=scrapy.Field()
+    infoclass=scrapy.Field()
+

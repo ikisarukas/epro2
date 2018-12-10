@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 import scrapy
 from scrapy import Request
-import epro2.spiders.functions as fn
+import epro2.epro2.spiders.functions as fn
 
 
 class BossSpider(scrapy.Spider):
