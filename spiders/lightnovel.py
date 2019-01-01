@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
 import scrapy
 import threading
-import epro2.epro2.mythread as mythread
+import epro2.mythread as mythread
 import redis
-from epro2.epro2.settings import pages
-import epro2.epro2.spiders.functions as fn
-from epro2.epro2.items import LightnovelItem
+from epro2.settings import pages
+import epro2.spiders.functions as fn
+from epro2.items import LightnovelItem
 
 
 class LightnovelSpider(scrapy.Spider):

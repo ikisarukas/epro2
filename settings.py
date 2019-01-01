@@ -23,8 +23,8 @@ db = 'epro'
 
 BOT_NAME = 'epro2'
 
-SPIDER_MODULES = ['epro2.epro2.spiders']
-NEWSPIDER_MODULE = 'epro2.epro2.spiders'
+SPIDER_MODULES = ['epro2.spiders']
+NEWSPIDER_MODULE = 'epro2.spiders'
 UAPOOL=[
     'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
     'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.75 Safari/537.36 LBBROWSER'
@@ -81,7 +81,7 @@ DEFAULT_REQUEST_HEADERS = {
 # Configure item pipelines
 # See https://doc.scrapy.org/en/latest/topics/item-pipeline.html
 ITEM_PIPELINES = {
-   'epro2.epro2.pipelines.Epro2Pipeline': 300,
+   'epro2.pipelines.Epro2Pipeline': 300,
 }
 
 # Enable and configure the AutoThrottle extension (disabled by default)

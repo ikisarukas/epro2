@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 from scrapy import Request
-import epro2.epro2.spiders.functions as fn
+import epro2.spiders.functions as fn
 import scrapy
 
 
@@ -22,7 +22,8 @@ class ZhilianSpider(scrapy.Spider):
             yield Request(i,headers=self.header,meta={'cookiejar':1},callback=self.parse_index)
 
     def parse_index(self, response):
-        index=response.xpath("//div[@id='listContent']//a[@class='contentpile__content__wrapper__item__info']/@href").extract()
+        # index=response.xpath("//div[@id='listContent']//a[@class='contentpile__content__wrapper__item__info']/@href").extract()
+        index = response.xpath("//body").extract()
         print("index====",index)
         for i in index:
             print(i)

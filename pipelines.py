@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 import  pymysql
-from epro2.epro2.settings import dbhost,user,password,db
-import epro2.epro2.items as items
-from epro2.epro2.spiders.functions import sqlpara
+from epro2.settings import dbhost,user,password,db
+import epro2.items as items
+from epro2.spiders.functions import sqlpara
 
 
 # Define your item pipelines here

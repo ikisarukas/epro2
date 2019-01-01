@@ -1,7 +1,7 @@
 import redis
 from scrapy import Request
-from epro2.epro2.settings import redis_db,redis_host,redis_port
-from epro2.epro2.settings import pages
+from epro2.settings import redis_db,redis_host,redis_port
+from epro2.settings import pages
 # spider.lightnovel
 def conredis():
     pool=redis.ConnectionPool(host=redis_host,port=redis_port,db=redis_db)
@@ -79,3 +79,7 @@ def zl_starturls(keywork):
         url="https://sou.zhaopin.com/?p="+str(i)+"&jl=765&kw="+keywork+"&kt=3"
         list.append(url)
     return list
+
+
+
+
