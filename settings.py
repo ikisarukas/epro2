@@ -62,9 +62,10 @@ DEFAULT_REQUEST_HEADERS = {
 
 # Enable or disable spider middlewares
 # See https://doc.scrapy.org/en/latest/topics/spider-middleware.html
-#SPIDER_MIDDLEWARES = {
-#    'epro2.middlewares.Epro2SpiderMiddleware': 543,
-#}
+SPIDER_MIDDLEWARES = {
+   'epro2.middlewares.Epro2SpiderMiddleware': 543,
+
+}
 
 # Enable or disable downloader middlewares
 # See https://doc.scrapy.org/en/latest/topics/downloader-middleware.html
