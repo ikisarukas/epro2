@@ -10,7 +10,20 @@ from scrapy.http import  HtmlResponse
 from selenium.common.exceptions import TimeoutException
 import  time
 
-
+class  Epro2Middleware(object):
+    def process_request(self, request, spider):
+        if spider.name == 'zhilian':
+            try:
+                print("start to get url by selenium")
+                spider.browser.get(request.url)
+                # spider.browser.execute_script("window.scrollTo(0, document.body.scrollHeight)")
+            except TimeoutException as e:
+                print("超时了。。。。")
+                # spider.browser.execute_script("window.stop()")
+            print("time sleep")
+            time.sleep(2)
+            return HtmlResponse(url=spider.browser.current_url, body=spider.browser.page_source, encoding="utf-8",
+                                request=request)
 class Epro2SpiderMiddleware(object):
     # Not all methods need to be defined. If a method is not defined,
     # scrapy acts as if the spider middleware does not modify the
@@ -46,27 +59,14 @@ class Epro2SpiderMiddleware(object):
         # or Item objects.
         pass
 
-    def process_start_requests(self, request, spider):
+    def process_start_requests(self, start_requests, spider):
         # Called with the start requests of the spider, and works
         # similarly to the process_spider_output() method, except
         # that it doesn’t have a response associated.
 
         # Must return only requests (not items).
-        # for r in start_requests:
-        #     yield r
-        if spider.name == 'zhilian':
-
-            try:
-                print("start to get url by selenium")
-                spider.browser.get(request.url)
-                # spider.browser.execute_script("window.scrollTo(0, document.body.scrollHeight)")
-            except TimeoutException as e:
-                print("超时了。。。。")
-                spider.browser.execute_script("window.stop()")
-            print("time sleep")
-            time.sleep(2)
-            return HtmlResponse(url=spider.browser.current_url, body=spider.browser.page_source, encoding="utf-8",
-                                request=request)
+        for r in start_requests:
+            yield r
 
     def spider_opened(self, spider):
         spider.logger.info('Spider opened: %s' % spider.name)
@@ -94,7 +94,7 @@ class Epro2DownloaderMiddleware(object):
         # - or return a Request object
         # - or raise IgnoreRequest: process_exception() methods of
         #   installed downloader middleware will be called
-        pass
+        return None
 
     def process_response(self, request, response, spider):
         # Called with the response returned from the downloader.
@@ -103,7 +103,7 @@ class Epro2DownloaderMiddleware(object):
         # - return a Response object
         # - return a Request object
         # - or raise IgnoreRequest
-      pass
+        return response
 
     def process_exception(self, request, exception, spider):
         # Called when a download handler or a process_request()

@@ -219,8 +219,746 @@ ings.js:750:13
 1547380813985	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
 1547380817156	Marionette	INFO	Listening on port 60380
 1547380817498	Marionette	WARN	TLS certificate errors will be ignored for this session
-1547381358602	mozrunner::runner	INFO	Running command: "d:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\IKISAR~1\\AppData\\Local\\Temp\\rust_mozprofile.0q2G7eG3YkS2"
-1547381359490	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
-1547381359491	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
-1547381362679	Marionette	INFO	Listening on port 60506
-1547381363336	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 10708, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 10708, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7764, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7764, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8260, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346[Parent 4836, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 4836, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10568, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10568, Chrome_C1547381656143	Marionette	INFO	Stopped listening on port 60506
+1547381901517	mozrunner::runner	INFO	Running command: "d:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\IKISAR~1\\AppData\\Local\\Temp\\rust_mozprofile.Wx2rFoy0p8lE"
+1547381902554	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1547381902554	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1547381905690	Marionette	INFO	Listening on port 60659
+1547381906088	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 9284, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9284, Chrome_ChildThread] WAR[Child 10232, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10232, Chrome_ChildThread] WARNING: pipe err[Child 6204, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6204, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chr1547382005854	Marionette	INFO	Stopped listening on port 60659
+1547382010986	mozrunner::runner	INFO	Running command: "d:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\IKISAR~1\\AppData\\Local\\Temp\\rust_mozprofile.lkgOQBGFDAYk"
+1547382011972	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1547382011973	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1547382014870	Marionette	INFO	Listening on port 60739
+1547382015000	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:750:13
+
+[Parent 6024, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9520, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 520, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 520, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 6024, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1547390395767	Marionette	INFO	Stopped listening on port 60739
+src/ipc/chromium/src/base/process_util_win.cc, line 188
+1547382230464	Marionette	INFO	Listening on port 60857
+1547382231006	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:750:13
+
+[Child 10160, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10160, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 10208, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1547390394188	Marionette	INFO	Stopped listening on port 60857
+shots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1547389342276	Marionette	INFO	Listening on port 62520
+1547389342908	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://desktop-bucket.zhaopin.cn/vendors.web.2a3d9e.js, line 1: HierarchyRequestError: Node cannot be inserted at the specified point in the hierarchy
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:750:13
+
+[Child 10188, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10188, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channe[Child 836, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 836, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc1547390397064	Marionette	INFO	Stopped listening on port 62520
+
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:750:13
+
+[Child 2032, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 2032, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium1547390398442	Marionette	INFO	Stopped listening on port 62615
+nette	WARN	TLS certificate errors will be ignored for this session
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:750:13
+
+[Parent 5940, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8000, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8000, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10352, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10352, Chrome_ChildThread] WARNING: pipe error: 109: file z[Parent 5940, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build[Parent 11500, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 12276, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 12276, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11332, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[Parent 11500, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1547390400675	Marionette	INFO	Stopped listening on port 63037
+1547390667074	mozrunner::runner	INFO	Running command: "d:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\IKISAR~1\\AppData\\Local\\Temp\\rust_mozprofile.h5hpU0UTJShl"
+1547390668107	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1547390668107	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1547390671526	Marionette	INFO	Listening on port 63457
+1547390672999	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 126[Parent 7656, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10568, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10568, Chrome_Chil[Parent 7656, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10504, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child1547391551719	Marionette	INFO	Stopped listening on port 63457
+TLS certificate errors will be ignored for this session
+JavaScript error: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/plugins/every_cookie_4644b13.js, line 4: ReferenceError: c is not defined
+JavaScript warning: https://csdnimg.cn/public/common/libs/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://csdnimg.cn/rabbit/exposure-click/main-1.0.6.js, line 556: unreachable code after return statement
+JavaScript warning: https://csdnimg.cn/rabbit/exposure-click/main-1.0.6.js, line 556: unreachable code after return statement
+[Parent 868, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+JavaScript warning: https://csdnimg.cn/public/common/libs/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://csdnimg.cn/rabbit/exposure-click/main-1.0.6.js, line 556: unreachable code after return statement
+JavaScript warning: https://csdnimg.cn/rabbit/exposure-click/main-1.0.6.js, line 556: unreachable code after return statement
+JavaScript error: resource://gre/modules/WebProgressChild.jsm, line 58: TypeError: this.mm.content is null
+JavaScript warning: https://csdnimg.cn/public/common/libs/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://csdnimg.cn/rabbit/exposure-click/main-1.0.6.js, line 556: unreachable code after return statement
+JavaScript warning: https://csdnimg.cn/rabbit/exposure-click/main-1.0.6.js, line 556: unreachable code after return statement
+JavaScript error: https://blog.csdn.net/u013709332/article/details/46537483, line 196: TypeError: window.csdn.loginBox is undefined
+JavaScript error: resource://gre/modules/WebProgressChild.jsm, line 58: TypeError: this.mm.content is null
+JavaScript error: https://g.alicdn.com/aliyun/yunqi/1.0.35/scripts/blogDetail.js, line 17: TypeError: $.cookie is not a function
+JavaScript error: https://g.alicdn.com/aliyun/yunqi/1.0.35/scripts/blogDetail.js, line 17: TypeError: $.cookie is not a function
+JavaScript error: https://static.segmentfault.com/v-5c3b1463/qa/script/question.min.js, line 17: TypeError: $(...).eq(...).offset(...) is undefined
+JavaScript error: https://static.segmentfault.com/v-5c3b1463/qa/script/question.min.js, line 17: TypeError: $(...).eq(...).offset(...) is undefined
+JavaScript error: https://static.segmentfault.com/v-5c3b1463/qa/script/question.min.js, line 17: TypeError: $(...).eq(...).offset(...) is undefined
+JavaScript error: https://static.segmentfault.com/v-5c3b1463/qa/script/question.min.js, line 17: TypeError: $(...).eq(...).offset(...) is undefined
+JavaScript error: https://static.segmentfault.com/v-5c3b1463/qa/script/question.min.js, line 17: TypeError: $(...).eq(...).offset(...) is undefined
+JavaScript error: https://static.segmentfault.com/v-5c3b1463/qa/script/question.min.js, line 17: TypeError: $(...).eq(...).offset(...) is undefined
+JavaScript error: https://static.segmentfault.com/v-5c3b1463/qa/script/question.min.js, line 17: TypeError: $(...).eq(...).offset(...) is undefined
+JavaScript error: https://static.segmentfault.com/v-5c3b1463/qa/script/question.min.js, line 17: TypeError: $(...).eq(...).offset(...) is undefined
+JavaScript error: https://static.segmentfault.com/v-5c3b1463/qa/script/question.min.js, line 17: TypeError: $(...).eq(...).offset(...) is undefined
+JavaScript error: https://static.segmentfault.com/v-5c3b1463/qa/script/question.min.js, line 17: TypeError: $(...).eq(...).offset(...) is undefined
+JavaScript error: https://static.segmentfault.com/v-5c3b1463/qa/script/question.min.js, line 17: TypeError: $(...).eq(...).offset(...) is undefined
+JavaScript error: https://static.segmentfault.com/v-5c3b1463/qa/script/question.min.js, line 17: TypeError: $(...).eq(...).offset(...) is undefined
+JavaScript error: https://static.segmentfault.com/v-5c3b1463/qa/script/question.min.js, line 17: TypeError: $(...).eq(...).offset(...) is undefined
+JavaScript error: https://static.segmentfault.com/v-5c3b1463/qa/script/question.min.js, line 17: TypeError: $(...).eq(...).offset(...) is undefined
+JavaScript error: https://static.segmentfault.com/v-5c3b1463/qa/script/question.min.js, line 17: TypeError: $(...).eq(...).offset(...) is undefined
+JavaScript error: https://static.segmentfault.com/v-5c3b1463/qa/script/question.min.js, line 17: TypeError: $(...).eq(...).offset(...) is undefined
+JavaScript error: https://static.segmentfault.com/v-5c3b1463/qa/script/question.min.js, line 17: TypeError: $(...).eq(...).offset(...) is undefined
+JavaScript error: https://static.segmentfault.com/v-5c3b1463/qa/script/question.min.js, line 17: TypeError: $(...).eq(...).offset(...) is undefined
+JavaScript error: https://static.segmentfault.com/v-5c3b1463/qa/script/question.min.js, line 17: TypeError: $(...).eq(...).offset(...) is undefined
+JavaScript error: https://static.segmentfault.com/v-5c3b1463/qa/script/question.min.js, line 17: TypeError: $(...).eq(...).offset(...) is undefined
+JavaScript error: https://static.segmentfault.com/v-5c3b1463/qa/script/question.min.js, line 17: TypeError: $(...).eq(...).offset(...) is undefined
+JavaScript error: https://static.segmentfault.com/v-5c3b1463/qa/script/question.min.js, line 17: TypeError: $(...).eq(...).offset(...) is undefined
+JavaScript error: https://static.segmentfault.com/v-5c3b1463/qa/script/question.min.js, line 17: TypeError: $(...).eq(...).offset(...) is undefined
+JavaScript error: https://static.segmentfault.com/v-5c3b1463/qa/script/question.min.js, line 17: TypeError: $(...).eq(...).offset(...) is undefined
+JavaScript error: https://static.segmentfault.com/v-5c3b1463/qa/script/question.min.js, line 17: TypeError: $(...).eq(...).offset(...) is undefined
+JavaScript error: https://static.segmentfault.com/v-5c3b1463/qa/script/question.min.js, line 17: TypeError: $(...).eq(...).offset(...) is undefined
+JavaScript error: https://static.segmentfault.com/v-5c3b1463/qa/script/question.min.js, line 17: TypeError: $(...).eq(...).offset(...) is undefined
+JavaScript error: https://static.segmentfault.com/v-5c3b1463/qa/script/question.min.js, line 17: TypeError: $(...).eq(...).offset(...) is undefined
+JavaScript error: https://static.segmentfault.com/v-5c3b1463/qa/script/question.min.js, line 17: TypeError: $(...).eq(...).offset(...) is undefined
+JavaScript error: https://static.segmentfault.com/v-5c3b1463/qa/script/question.min.js, line 17: TypeError: $(...).eq(...).offset(...) is undefined
+JavaScript error: https://static.segmentfault.com/v-5c3b1463/qa/script/question.min.js, line 17: TypeError: $(...).eq(...).offset(...) is undefined
+JavaScript error: https://static.segmentfault.com/v-5c3b1463/qa/script/question.min.js, line 17: TypeError: $(...).eq(...).offset(...) is undefined
+JavaScript error: https://static.segmentfault.com/v-5c3b1463/qa/script/question.min.js, line 17: TypeError: $(...).eq(...).offset(...) is undefined
+JavaScript error: https://static.segmentfault.com/v-5c3b1463/qa/script/question.min.js, line 17: TypeError: $(...).eq(...).offset(...) is undefined
+JavaScript error: https://static.segmentfault.com/v-5c3b1463/qa/script/question.min.js, line 17: TypeError: $(...).eq(...).offset(...) is undefined
+JavaScript error: https://static.segmentfault.com/v-5c3b1463/qa/script/question.min.js, line 17: TypeError: $(...).eq(...).offset(...) is undefined
+JavaScript error: https://static.segmentfault.com/v-5c3b1463/qa/script/question.min.js, line 17: TypeError: $(...).eq(...).offset(...) is undefined
+JavaScript error: https://static.segmentfault.com/v-5c3b1463/qa/script/question.min.js, line 17: TypeError: $(...).eq(...).offset(...) is undefined
+JavaScript error: https://static.segmentfault.com/v-5c3b1463/qa/script/question.min.js, line 17: TypeError: $(...).eq(...).offset(...) is undefined
+JavaScript error: https://static.segmentfault.com/v-5c3b1463/qa/script/question.min.js, line 17: TypeError: $(...).eq(...).offset(...) is undefined
+JavaScript error: https://static.segmentfault.com/v-5c3b1463/qa/script/question.min.js, line 17: TypeError: $(...).eq(...).offset(...) is undefined
+JavaScript error: https://static.segmentfault.com/v-5c3b1463/qa/script/question.min.js, line 17: TypeError: $(...).eq(...).offset(...) is undefined
+JavaScript error: https://static.segmentfault.com/v-5c3b1463/qa/script/question.min.js, line 17: TypeError: $(...).eq(...).offset(...) is undefined
+JavaScript error: https://static.segmentfault.com/v-5c3b1463/qa/script/question.min.js, line 17: TypeError: $(...).eq(...).offset(...) is undefined
+JavaScript error: https://static.segmentfault.com/v-5c3b1463/qa/script/question.min.js, line 17: TypeError: $(...).eq(...).offset(...) is undefined
+JavaScript error: https://static.segmentfault.com/v-5c3b1463/qa/script/question.min.js, line 17: TypeError: $(...).eq(...).offset(...) is undefined
+JavaScript error: https://static.segmentfault.com/v-5c3b1463/qa/script/question.min.js, line 17: TypeError: $(...).eq(...).offset(...) is undefined
+JavaScript error: https://static.segmentfault.com/v-5c3b1463/qa/script/question.min.js, line 17: TypeError: $(...).eq(...).offset(...) is undefined
+JavaScript error: https://static.segmentfault.com/v-5c3b1463/qa/script/question.min.js, line 17: TypeError: $(...).eq(...).offset(...) is undefined
+JavaScript error: https://static.segmentfault.com/v-5c3b1463/qa/script/question.min.js, line 17: TypeError: $(...).eq(...).offset(...) is undefined
+JavaScript error: https://static.segmentfault.com/v-5c3b1463/qa/script/question.min.js, line 17: TypeError: $(...).eq(...).offset(...) is undefined
+JavaScript error: https://static.segmentfault.com/v-5c3b1463/qa/script/question.min.js, line 17: TypeError: $(...).eq(...).offset(...) is undefined
+JavaScript error: https://static.segmentfault.com/v-5c3b1463/qa/script/question.min.js, line 17: TypeError: $(...).eq(...).offset(...) is undefined
+JavaScript error: https://static.segmentfault.com/v-5c3b1463/qa/script/question.min.js, line 17: TypeError: $(...).eq(...).offset(...) is undefined
+JavaScript error: https://static.segmentfault.com/v-5c3b1463/qa/script/question.min.js, line 17: TypeError: $(...).eq(...).offset(...) is undefined
+JavaScript error: https://static.segmentfault.com/v-5c3b1463/qa/script/question.min.js, line 17: TypeError: $(...).eq(...).offset(...) is undefined
+JavaScript error: https://static.segmentfault.com/v-5c3b1463/qa/script/question.min.js, line 17: TypeError: $(...).eq(...).offset(...) is undefined
+JavaScript error: https://static.segmentfault.com/v-5c3b1463/qa/script/question.min.js, line 17: TypeError: $(...).eq(...).offset(...) is undefined
+JavaScript error: https://static.segmentfault.com/v-5c3b1463/qa/script/question.min.js, line 17: TypeError: $(...).eq(...).offset(...) is undefined
+JavaScript error: https://static.segmentfault.com/v-5c3b1463/qa/script/question.min.js, line 17: TypeError: $(...).eq(...).offset(...) is undefined
+JavaScript error: https://static.segmentfault.com/v-5c3b1463/qa/script/question.min.js, line 17: TypeError: $(...).eq(...).offset(...) is undefined
+JavaScript error: https://static.segmentfault.com/v-5c3b1463/qa/script/question.min.js, line 17: TypeError: $(...).eq(...).offset(...) is undefined
+JavaScript error: https://static.segmentfault.com/v-5c3b1463/qa/script/question.min.js, line 17: TypeError: $(...).eq(...).offset(...) is undefined
+JavaScript error: https://static.segmentfault.com/v-5c3b1463/qa/script/question.min.js, line 17: TypeError: $(...).eq(...).offset(...) is undefined
+JavaScript error: https://static.segmentfault.com/v-5c3b1463/qa/script/question.min.js, line 17: TypeError: $(...).eq(...).offset(...) is undefined
+JavaScript error: https://static.segmentfault.com/v-5c3b1463/qa/script/question.min.js, line 17: TypeError: $(...).eq(...).offset(...) is undefined
+JavaScript error: https://static.segmentfault.com/v-5c3b1463/qa/script/question.min.js, line 17: TypeError: $(...).eq(...).offset(...) is undefined
+JavaScript error: https://static.segmentfault.com/v-5c3b1463/qa/script/question.min.js, line 17: TypeError: $(...).eq(...).offset(...) is undefined
+JavaScript error: https://static.segmentfault.com/v-5c3b1463/qa/script/question.min.js, line 17: TypeError: $(...).eq(...).offset(...) is undefined
+JavaScript error: https://static.segmentfault.com/v-5c3b1463/qa/script/question.min.js, line 17: TypeError: $(...).eq(...).offset(...) is undefined
+JavaScript error: https://static.segmentfault.com/v-5c3b1463/qa/script/question.min.js, line 17: TypeError: $(...).eq(...).offset(...) is undefined
+JavaScript error: https://static.segmentfault.com/v-5c3b1463/qa/script/question.min.js, line 17: TypeError: $(...).eq(...).offset(...) is undefined
+JavaScript error: https://static.segmentfault.com/v-5c3b1463/qa/script/question.min.js, line 17: TypeError: $(...).eq(...).offset(...) is undefined
+JavaScript error: https://static.segmentfault.com/v-5c3b1463/qa/script/question.min.js, line 17: TypeError: $(...).eq(...).offset(...) is undefined
+JavaScript error: https://static.segmentfault.com/v-5c3b1463/qa/script/question.min.js, line 17: TypeError: $(...).eq(...).offset(...) is undefined
+JavaScript error: https://static.segmentfault.com/v-5c3b1463/qa/script/question.min.js, line 17: TypeError: $(...).eq(...).offset(...) is undefined
+JavaScript error: https://static.segmentfault.com/v-5c3b1463/qa/script/question.min.js, line 17: TypeError: $(...).eq(...).offset(...) is undefined
+JavaScript error: https://static.segmentfault.com/v-5c3b1463/qa/script/question.min.js, line 17: TypeError: $(...).eq(...).offset(...) is undefined
+JavaScript error: https://static.segmentfault.com/v-5c3b1463/qa/script/question.min.js, line 17: TypeError: $(...).eq(...).offset(...) is undefined
+JavaScript error: https://static.segmentfault.com/v-5c3b1463/qa/script/question.min.js, line 17: TypeError: $(...).eq(...).offset(...) is undefined
+JavaScript error: https://static.segmentfault.com/v-5c3b1463/qa/script/question.min.js, line 17: TypeError: $(...).eq(...).offset(...) is undefined
+JavaScript error: https://static.segmentfault.com/v-5c3b1463/qa/script/question.min.js, line 17: TypeError: $(...).eq(...).offset(...) is undefined
+JavaScript error: https://static.segmentfault.com/v-5c3b1463/qa/script/question.min.js, line 17: TypeError: $(...).eq(...).offset(...) is undefined
+JavaScript error: https://static.segmentfault.com/v-5c3b1463/qa/script/question.min.js, line 17: TypeError: $(...).eq(...).offset(...) is undefined
+JavaScript error: https://static.segmentfault.com/v-5c3b1463/qa/script/question.min.js, line 17: TypeError: $(...).eq(...).offset(...) is undefined
+JavaScript error: https://static.segmentfault.com/v-5c3b1463/qa/script/question.min.js, line 17: TypeError: $(...).eq(...).offset(...) is undefined
+JavaScript error: https://static.segmentfault.com/v-5c3b1463/qa/script/question.min.js, line 17: TypeError: $(...).eq(...).offset(...) is undefined
+JavaScript error: https://static.segmentfault.com/v-5c3b1463/qa/script/question.min.js, line 17: TypeError: $(...).eq(...).offset(...) is undefined
+JavaScript error: https://static.segmentfault.com/v-5c3b1463/qa/script/question.min.js, line 17: TypeError: $(...).eq(...).offset(...) is undefined
+JavaScript error: https://static.segmentfault.com/v-5c3b1463/qa/script/question.min.js, line 17: TypeError: $(...).eq(...).offset(...) is undefined
+JavaScript error: https://static.segmentfault.com/v-5c3b1463/qa/script/question.min.js, line 17: TypeError: $(...).eq(...).offset(...) is undefined
+JavaScript error: https://static.segmentfault.com/v-5c3b1463/qa/script/question.min.js, line 17: TypeError: $(...).eq(...).offset(...) is undefined
+JavaScript error: https://static.segmentfault.com/v-5c3b1463/qa/script/question.min.js, line 17: TypeError: $(...).eq(...).offset(...) is undefined
+JavaScript error: https://static.segmentfault.com/v-5c3b1463/qa/script/question.min.js, line 17: TypeError: $(...).eq(...).offset(...) is undefined
+JavaScript error: https://static.segmentfault.com/v-5c3b1463/qa/script/question.min.js, line 17: TypeError: $(...).eq(...).offset(...) is undefined
+JavaScript error: https://static.segmentfault.com/v-5c3b1463/qa/script/question.min.js, line 17: TypeError: $(...).eq(...).offset(...) is undefined
+JavaScript error: https://static.segmentfault.com/v-5c3b1463/qa/script/question.min.js, line 17: TypeError: $(...).eq(...).offset(...) is undefined
+JavaScript error: https://static.segmentfault.com/v-5c3b1463/qa/script/question.min.js, line 17: TypeError: $(...).eq(...).offset(...) is undefined
+JavaScript error: https://static.segmentfault.com/v-5c3b1463/qa/script/question.min.js, line 17: TypeError: $(...).eq(...).offset(...) is undefined
+JavaScript error: https://static.segmentfault.com/v-5c3b1463/qa/script/question.min.js, line 17: TypeError: $(...).eq(...).offset(...) is undefined
+JavaScript error: https://static.segmentfault.com/v-5c3b1463/qa/script/question.min.js, line 17: TypeError: $(...).eq(...).offset(...) is undefined
+JavaScript error: https://static.segmentfault.com/v-5c3b1463/qa/script/question.min.js, line 17: TypeError: $(...).eq(...).offset(...) is undefined
+JavaScript error: https://static.segmentfault.com/v-5c3b1463/qa/script/question.min.js, line 17: TypeError: $(...).eq(...).offset(...) is undefined
+JavaScript error: https://static.segmentfault.com/v-5c3b1463/qa/script/question.min.js, line 17: TypeError: $(...).eq(...).offset(...) is undefined
+JavaScript error: https://static.segmentfault.com/v-5c3b1463/qa/script/question.min.js, line 17: TypeError: $(...).eq(...).offset(...) is undefined
+JavaScript error: https://static.segmentfault.com/v-5c3b1463/qa/script/question.min.js, line 17: TypeError: $(...).eq(...).offset(...) is undefined
+JavaScript error: https://static.segmentfault.com/v-5c3b1463/qa/script/question.min.js, line 17: TypeError: $(...).eq(...).offset(...) is undefined
+JavaScript error: https://static.segmentfault.com/v-5c3b1463/qa/script/question.min.js, line 17: TypeError: $(...).eq(...).offset(...) is undefined
+JavaScript error: https://static.segmentfault.com/v-5c3b1463/qa/script/question.min.js, line 17: TypeError: $(...).eq(...).offset(...) is undefined
+JavaScript error: https://static.segmentfault.com/v-5c3b1463/qa/script/question.min.js, line 17: TypeError: $(...).eq(...).offset(...) is undefined
+JavaScript error: https://static.segmentfault.com/v-5c3b1463/qa/script/question.min.js, line 17: TypeError: $(...).eq(...).offset(...) is undefined
+JavaScript error: https://static.segmentfault.com/v-5c3b1463/qa/script/question.min.js, line 17: TypeError: $(...).eq(...).offset(...) is undefined
+JavaScript error: https://static.segmentfault.com/v-5c3b1463/qa/script/question.min.js, line 17: TypeError: $(...).eq(...).offset(...) is undefined
+JavaScript error: https://static.segmentfault.com/v-5c3b1463/qa/script/question.min.js, line 17: TypeError: $(...).eq(...).offset(...) is undefined
+JavaScript error: https://static.segmentfault.com/v-5c3b1463/qa/script/question.min.js, line 17: TypeError: $(...).eq(...).offset(...) is undefined
+JavaScript error: https://static.segmentfault.com/v-5c3b1463/qa/script/question.min.js, line 17: TypeError: $(...).eq(...).offset(...) is undefined
+JavaScript error: https://static.segmentfault.com/v-5c3b1463/qa/script/question.min.js, line 17: TypeError: $(...).eq(...).offset(...) is undefined
+JavaScript error: https://static.segmentfault.com/v-5c3b1463/qa/script/question.min.js, line 17: TypeError: $(...).eq(...).offset(...) is undefined
+JavaScript error: https://static.segmentfault.com/v-5c3b1463/qa/script/question.min.js, line 17: TypeError: $(...).eq(...).offset(...) is undefined
+JavaScript error: https://static.segmentfault.com/v-5c3b1463/qa/script/question.min.js, line 17: TypeError: $(...).eq(...).offset(...) is undefined
+JavaScript error: https://static.segmentfault.com/v-5c3b1463/qa/script/question.min.js, line 17: TypeError: $(...).eq(...).offset(...) is undefined
+JavaScript error: https://static.segmentfault.com/v-5c3b1463/qa/script/question.min.js, line 17: TypeError: $(...).eq(...).offset(...) is undefined
+JavaScript error: https://static.segmentfault.com/v-5c3b1463/qa/script/question.min.js, line 17: TypeError: $(...).eq(...).offset(...) is undefined
+JavaScript error: https://static.segmentfault.com/v-5c3b1463/qa/script/question.min.js, line 17: TypeError: $(...).eq(...).offset(...) is undefined
+JavaScript error: https://static.segmentfault.com/v-5c3b1463/qa/script/question.min.js, line 17: TypeError: $(...).eq(...).offset(...) is undefined
+JavaScript error: https://static.segmentfault.com/v-5c3b1463/qa/script/question.min.js, line 17: TypeError: $(...).eq(...).offset(...) is undefined
+JavaScript error: https://static.segmentfault.com/v-5c3b1463/qa/script/question.min.js, line 17: TypeError: $(...).eq(...).offset(...) is undefined
+JavaScript error: https://static.segmentfault.com/v-5c3b1463/qa/script/question.min.js, line 17: TypeError: $(...).eq(...).offset(...) is undefined
+JavaScript error: https://static.segmentfault.com/v-5c3b1463/qa/script/question.min.js, line 17: TypeError: $(...).eq(...).offset(...) is undefined
+JavaScript error: https://static.segmentfault.com/v-5c3b1463/qa/script/question.min.js, line 17: TypeError: $(...).eq(...).offset(...) is undefined
+JavaScript error: https://static.segmentfault.com/v-5c3b1463/qa/script/question.min.js, line 17: TypeError: $(...).eq(...).offset(...) is undefined
+JavaScript error: https://static.segmentfault.com/v-5c3b1463/qa/script/question.min.js, line 17: TypeError: $(...).eq(...).offset(...) is undefined
+JavaScript error: https://static.segmentfault.com/v-5c3b1463/qa/script/question.min.js, line 17: TypeError: $(...).eq(...).offset(...) is undefined
+JavaScript error: https://static.segmentfault.com/v-5c3b1463/qa/script/question.min.js, line 17: TypeError: $(...).eq(...).offset(...) is undefined
+JavaScript error: https://static.segmentfault.com/v-5c3b1463/qa/script/question.min.js, line 17: TypeError: $(...).eq(...).offset(...) is undefined
+JavaScript warning: https://csdnimg.cn/public/common/libs/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://csdnimg.cn/rabbit/exposure-click/main-1.0.6.js, line 556: unreachable code after return statement
+JavaScript warning: https://csdnimg.cn/rabbit/exposure-click/main-1.0.6.js, line 556: unreachable code after return statement
+JavaScript error: resource://gre/modules/WebProgressChild.jsm, line 58: TypeError: this.mm.content is null
+JavaScript error: https://csdnimg.cn/public/common/libs/jquery/jquery-1.9.1.min.js, line 5: TypeError: r is undefined
+JavaScript error: https://csdnimg.cn/release/phoenix/vendor/tingyun/tingyun-rum-blog.js, line 1: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: resource://gre/modules/WebProgressChild.jsm, line 58: TypeError: this.mm.content is null
+JavaScript error: https://blog.csdn.net/u012928324/article/details/82186530, line 201: TypeError: window.csdn.loginBox is undefined
+JavaScript error: resource://gre/modules/WebProgressChild.jsm, line 58: TypeError: this.mm.content is null
+JavaScript error: resource://gre/modules/WebProgressChild.jsm, line 58: TypeError: this.mm.content is null
+JavaScript error: resource://gre/modules/WebProgressChild.jsm, line 58: TypeError: this.mm.content is null
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:750:13
+
+JavaScript warning: https://bbs.csdn.net/topics/391064581?page=1, line 1693: unreachable code after return statement
+JavaScript error: resource://gre/modules/WebProgressChild.jsm, line 58: TypeError: this.mm.content is null
+JavaScript error: resource://gre/modules/WebProgressChild.jsm, line 58: TypeError: this.mm.content is null
+JavaScript error: resource://gre/modules/WebProgressChild.jsm, line 58: TypeError: this.mm.content is null
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=selenium%20%20sttus&json=1&p=3&sid=1469_21122_28131_28267_27245&req=2&bs=selenium%20status&pbs=selenium%20status&csor=0&pwd=selenium%20%20sttus&cb=jQuery110209146265680626084_1547391357647&_=1547391357765, line 1: TypeError: jQuery110209146265680626084_1547391357647 is not a function
+JavaScript error: resource://gre/modules/WebProgressChild.jsm, line 58: TypeError: this.mm.content is null
+JavaScript error: resource://gre/modules/WebProgressChild.jsm, line 58: TypeError: this.mm.content is null
+[Parent 868, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6540, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channe[Child 10780, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+l_win.cc, line 346
+[Child 6540, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[Child 5756, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 12460, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1547393868640	Marionette	INFO	Stopped listening on port 63695
+rror: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc[1547392229220	Marionette	INFO	Stopped listening on port 64653
+anges
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:750:13
+
+[Child 6376, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6376, Chrome_ChildThr[Child 11456, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/commo[Child 13200, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 13200, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1547392230492	Marionette	INFO	Stopped listening on port 64729
+1547392438706	mozrunner::runner	INFO	Running command: "d:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\IKISAR~1\\AppData\\Local\\Temp\\rust_mozprofile.8xWZiarsDfMR"
+1547392439715	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1547392439716	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+[Child 10220, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10220, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1547392443130	Marionette	INFO	Listening on port 65007
+1547392443472	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 12276, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7636, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9472, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9472, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 12276, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1547393850189	Marionette	INFO	Stopped listening on port 65007
+2a3d9e.js, line 1: HierarchyRequestError: Node cannot be inserted at the specified point in the hierarchy
+[Parent 9492, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 9492, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10892, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Chil[Child 11864, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1547393854907	Marionette	INFO	Stopped listening on port 65077
+ld/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10368, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10368, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 4876, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/base/process_util_win.cc, line 188
+1547392552329	Marionette	INFO	Listening on port 65162
+1547392552760	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 9096, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10192, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10192, Chrome_ChildThread] WARNING: pipe error: 109: 1547393868765	Marionette	INFO	Stopped listening on port 65162
+92593826	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1547392596639	Marionette	INFO	Listening on port 65226
+1547392596901	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://desktop-bucket.zhaopin.cn/vendors.web.2a3d9e.js, line 1: HierarchyRequestError: Node cannot be inserted at the specified point in the hierarchy
+[Parent 12616, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 12616, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8576, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8576, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7072, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7072, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_[Parent 12616, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/base/process_util_win.cc, line 188
+[Child 10388, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10388, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/bui1547393868818	Marionette	INFO	Stopped listening on port 65226
+d] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, li[Child 4856, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346n
+e 346
+[Child 4856, Chrome_ChildThread] WARNING: pi[JavaScript error: resource://gre/modules/JSONFile.jsm, line 159: Error: Data is not ready.
+console.error: PushService: 
+  clearOriginData: Error clearing origin data:
+  UnknownError
+console.error: PushService: 
+  stateChangeProcessEnqueue: Error transitioning state
+  UnknownError
+
+###!!! [Parent][DispatchAsyncMessage] Error: PBackgroundIDBFactory::Msg_PBackgroundIDBFactoryRequestConstructor Value error: message was deserialized, but contained an illegal value
+
+
+###!!! [Parent][DispatchAsyncMessage] Error: PBackgroundIDBFactory::Msg_PBackgroundIDBFactoryRequestConstructor Value error: message was deserialized, but contained an illegal value
+
+1547392880332	Marionette	INFO	Stopped listening on port 65396
+1547392901569	mozrunner::runner	INFO	Running command: "d:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\IKISAR~1\\AppData\\Local\\Temp\\rust_mozprofile.nO9N1aqV7ktm"
+1547392902622	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1547392902623	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1547392905474	Marionette	INFO	Listening on port 65430
+1547392905618	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 12832, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 12832, Chrome_ChildThread] WARNING: pipe [Child 11784, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 12312, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/base/process_util_win.cc, line 188
+JavaScript error: resource:///modules/WindowsJumpLists.jsm, line 237: TypeError: this._builder is undefined
+[Parent 12312, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7412, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7412, Chrome_ChildThread] WARNING: pip1547393868711	Marionette	INFO	Stopped listening on port 65430
+c/chrome/common/ipc_channel_win.cc, line 346
+[Parent 12004, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 12016, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 12016, Chrome_ChildThread] WARNING: pipe er1547393868696	Marionette	INFO	Stopped listening on port 49168
+ignored for this session
+[Child 12376, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 12376, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 12920, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 12920, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9596, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9596, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/1547393868406	Marionette	INFO	Stopped listening on port 49264
+hrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 14044, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/commo[Parent 14172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 13632, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 13632, Chrome_ChildThread] WARNING: pipe 1547393868638	Marionette	INFO	Stopped listening on port 49677
+1547394235256	mozrunner::runner	INFO	Running command: "d:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\IKISAR~1\\AppData\\Local\\Temp\\rust_mozprofile.GtWTJ2q2gSiG"
+1547394236686	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1547394236686	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1547394240065	Marionette	INFO	Listening on port 50604
+1547394240268	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:750:13
+
+[Child 7008, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11864, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11864, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11960, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11960, Chrome_ChildThread] WARNING: pip1547395307300	Marionette	INFO	Stopped listening on port 50604
+ ignored for this session
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:750:13
+
+[Child 11276, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11276, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9424, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9424, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7320, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7320, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 1547395304034	Marionette	INFO	Stopped listening on port 50960
+h resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:750:13
+
+[Parent 6868, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11752, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6488, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6488, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 6868, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/base/process_util_win.cc, line 188
+[Parent 6868, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/base/process_util_win.cc, line 188
+1547395183022	Marionette	INFO	Stopped listening on port 51534
+2, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8684, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8684, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1547395182399	Marionette	INFO	Stopped listening on port 51932
+enshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+[Parent 14176, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9292, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9292, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1547395146234	Marionette	INFO	Listening on port 52019
+1547395146544	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:750:13
+
+[Parent 14176, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7428, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7428, Chrome_ChildThr[
+###!!! [Parent][MessageChannel] Error: (msgtype=0x190095,name=PBrowser::Msg_UpdateNativeWindowHandle) Closed channel: cannot send/recv
+
+Child 
+###!!! [Parent][MessageChannel] Error: (msgtype=0x190084,name=PBrowser::Msg_Destroy) Closed channel: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x190001,name=PBrowser::Msg_AsyncMessage) Closed channel: cannot send/recv
+
+14244, CJavaScript error: resource:///actors/AboutReaderChild.jsm, line 80: NS_ERROR_UNEXPECTED: 
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x19002C,name=PBrowser::Msg_SetInputContext) Closed channel: cannot send/recv
+
+hrome_ChildThread] WARNING: pipe error: 109: file z:/build/bu
+###!!! [Child][MessageChannel] Error: (msgtype=0x300112,name=PContent::Msg_DetachBrowsingContext) Closed channel: cannot send/recv
+
+ild/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 14244, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1547474549955	mozrunner::runner	INFO	Running command: "d:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\IKISAR~1\\AppData\\Local\\Temp\\rust_mozprofile.gafgXBfSodTw"
+1547474552033	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1547474552033	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1547474556775	Marionette	INFO	Listening on port 56139
+1547474557247	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 6344, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6344, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7160, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7160, Chrome_ChildThread] WARNING: p[Child 6152, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6152, Chrome_ChildThread] WARNING: pipe error: 109: file z:/1547475270763	Marionette	INFOJavaScript error: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/plugins/every_cookie_4644b13.js, line 4: ReferenceError: c is not defined
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=python%20&json=1&p=3&sid=1429_21079_28132_28266&req=2&csor=7&pwd=python&cb=jQuery110207205582740334878_1547475303786&_=1547475303795, line 1: TypeError: jQuery110207205582740334878_1547475303786 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=python%20%20%E5%86%99%E5%85%A5we&json=1&p=3&sid=1429_21079_28132_28266&req=2&pbs=python%20%20%E5%86%99%E5%85%A5w&csor=12&pwd=python%20%20%E5%86%99%E5%85%A5w&cb=jQuery110207205582740334878_1547475303786&_=1547475303806, line 1: TypeError: jQuery110207205582740334878_1547475303786 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=python%20%20%E5%86%99%E5%85%A5wen&json=1&p=3&sid=1429_21079_28132_28266&req=2&pbs=python%20%20%E5%86%99%E5%85%A5w&csor=13&pwd=python%20%20%E5%86%99%E5%85%A5we&cb=jQuery110207205582740334878_1547475303786&_=1547475303807, line 1: TypeError: jQuery110207205582740334878_1547475303786 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=python%20%20%E5%86%99%E5%85%A5wenj&json=1&p=3&sid=1429_21079_28132_28266&req=2&pbs=python%20%20%E5%86%99%E5%85%A5w&csor=14&pwd=python%20%20%E5%86%99%E5%85%A5wen&cb=jQuery110207205582740334878_1547475303786&_=1547475303808, line 1: TypeError: jQuery110207205582740334878_1547475303786 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=python%20%20%E5%86%99%E5%85%A5%E6%96%87%E4%BB%B6&json=1&p=3&sid=1429_21079_28132_28266&req=2&pbs=python%20%20%E5%86%99%E5%85%A5w&csor=12&pwd=python%20%20%E5%86%99%E5%85%A5wenj&cb=jQuery110207205582740334878_1547475303786&_=1547475303809, line 1: TypeError: jQuery110207205582740334878_1547475303786 is not a function
+JavaScript error: resource://gre/modules/WebProgressChild.jsm, line 58: TypeError: this.mm.content is null
+JavaScript warning: http://cdn.staticfile.org/jquery/2.0.3/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-84264393-2, line 87: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-84264393-2, line 147: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-84264393-2, line 147: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-84264393-2, line 147: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-84264393-2, line 87: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-84264393-2, line 147: unreachable code after return statement
+JavaScript error: http://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-5751451760833794&output=html&h=90&slotname=1691338467&adk=3290403102&adf=36735136&w=855&fwrn=4&fwrnh=100&lmt=1547475349&rafmt=1&guci=2.2.0.0.2.2.0.0&format=855x90&url=http%3A%2F%2Fwww.runoob.com%2Fpython%2Fpython-files-io.html&flash=0&fwr=0&resp_fmts=3&wgl=1&adsid=NT&dt=1547475348648&bpp=15&bdt=3784&fdt=493&idt=482&shv=r20190107&cbv=r20180604&saldr=aa&abxe=1&correlator=179628568230&frm=20&pv=2&ga_vid=1390748033.1547475349&ga_sid=1547475349&ga_hid=68992811&ga_fc=0&icsg=672435&dssz=17&mdo=0&mso=8&u_tz=480&u_his=1&u_java=0&u_h=768&u_w=1366&u_ah=728&u_aw=1366&u_cd=24&u_nplug=0&u_nmime=0&adx=235&ady=9673&biw=1349&bih=654&scr_x=0&scr_y=369&eid=21060853%2C410075081&oid=3&ref=https%3A%2F%2Fwww.baidu.com%2Flink%3Furl%3DukSgf8SL6XXYw_QlTVlmxIqf-9DlC8cEZLch21fG5skvrDi7m-_a718fPWvkodUI5jiofNPl5iyNB4xbyIR1Pa%26wd%3D%26eqid%3Ded8584210000adb2000000065c3c998c&rx=0&eae=0&fc=656&brdim=-8%2C-8%2C-8%2C-8%2C1366%2C0%2C1382%2C744%2C1366%2C654&vis=1&rsz=%7C%7CoeEbr%7C&abl=CS&ppjl=u&pfx=0&fu=136&bc=13&ifi=1&uci=1.swlv1rr9hdby&xpc=1AuKThk3rY&p=http%3A//www.runoob.com&dtd=526, line 1: ReferenceError: buildAttribution is not defined
+JavaScript warning: http://cdn.staticfile.org/jquery/2.0.3/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-84264393-2, line 87: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-84264393-2, line 147: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-84264393-2, line 147: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-84264393-2, line 147: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-84264393-2, line 87: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-84264393-2, line 147: unreachable code after return statement
+JavaScript warning: http://cdn.staticfile.org/jquery/2.0.3/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-84264393-2, line 87: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-84264393-2, line 147: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-84264393-2, line 147: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-84264393-2, line 147: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-84264393-2, line 87: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-84264393-2, line 147: unreachable code after return statement
+JavaScript warning: https://csdnimg.cn/public/common/libs/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://csdnimg.cn/rabbit/exposure-click/main-1.0.6.js, line 556: unreachable code after return statement
+JavaScript warning: https://csdnimg.cn/rabbit/exposure-click/main-1.0.6.js, line 556: unreachable code after return statement
+JavaScript error: resource://gre/modules/WebProgressChild.jsm, line 58: TypeError: this.mm.content is null
+[Parent 7720, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:750:13
+
+JavaScript warning: https://csdnimg.cn/public/common/libs/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://csdnimg.cn/rabbit/exposure-click/main-1.0.6.js, line 556: unreachable code after return statement
+JavaScript warning: https://csdnimg.cn/rabbit/exposure-click/main-1.0.6.js, line 556: unreachable code after return statement
+JavaScript warning: https://csdnimg.cn/public/common/libs/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://csdnimg.cn/rabbit/exposure-click/main-1.0.6.js, line 556: unreachable code after return statement
+JavaScript warning: https://csdnimg.cn/rabbit/exposure-click/main-1.0.6.js, line 556: unreachable code after return statement
+JavaScript error: resource://gre/modules/WebProgressChild.jsm, line 58: TypeError: this.mm.content is null
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x920001,name=PVsync::Msg_Notify) Channel error: cannot send/recv
+
+JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 1630: TypeError: subject.QueryInterface is not a function
+JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 1630: TypeError: subject.QueryInterface is not a function
+JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 1630: TypeError: subject.QueryInterface is not a function
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 1630: TypeError: subject.QueryInterface is not a function
+JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 1630: TypeError: subject.QueryInterface is not a function
+JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 1630: TypeError: subject.QueryInterface is not a function
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+[Parent 7720, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/base/process_util_win.cc, line 188
+JavaScript error: resource:///modules/sessionstore/SessionSaver.jsm, line 180: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIAppShellService.hiddenDOMWindow]
+1547477711146	Marionette	INFO	Stopped listening on port 56214
+n-1.0.6.js, line 556: unreachable code after return statement
+JavaScript warning: https://csdnimg.cn/rabbit/exposure-click/main-1.0.6.js, line 556: unreachable code after return statement
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:750:13
+
+JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 1630: TypeError: subject.QueryInterface is not a function
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+[Parent 8
+###!!! [Parent][MessageChannel] Error: (msgtype=0x4C0014,name=PHttpChannel::Msg_FailedAsyncOpen) Channel error: cannot send/recv
+
+208, Gecko_IOThread] WARNING: pipe error: 232: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 513
+JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 1630: TypeError: subject.QueryInterface is not a function
+JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 1630: TypeError: subject.QueryInterface is not a function
+JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 1630: TypeError: subject.QueryInterface is not a function
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+[Parent 8208, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 8208, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+JavaScript error: resource:///modules/sessionstore/SessionSaver.jsm, line 180: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIAppShellService.hiddenDOMWindow]
+1547477696834	Marionette	INFO	Stopped listening on port 57006
+346
+[Parent 10108, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromiu1547476058312	Marionette	INFO	Stopped listening on port 57384
+ Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10012, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10012, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_c1547476059180	Marionette	INFO	Stopped listening on port 57465
+1547476104436	mozrunner::runner	INFO	Running command: "d:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\IKISAR~1\\AppData\\Local\\Temp\\rust_mozprofile.Ad1AOyar18Rj"
+1547476105655	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1547476105655	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1547476109047	Marionette	INFO	Listening on port 57645
+1547476109163	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: chrome://marionette/content/driver.js, line 1287: TypeError: WeakMap key must be an object, got undefined
+1547476257719	Marionette	ERROR	[35] No reply from Marionette:Register
+JavaScript error: chrome://marionette/content/listener.js, line 458: TypeError: reply[0] is undefined
+JavaScript error: chrome://global/content/bindings/browser.xml, line 1048: uncaught exception: 2147500033
+1547476259465	Marionette	ERROR	[2147483655] No reply from Marionette:Register
+JavaScript error: chrome://marionette/content/listener.js, line 458: TypeError: reply[0] is undefined
+1547476259621	Marionette	ERROR	[2147483657] No reply from Marionette:Register
+JavaScript error: chrome://marionette/content/listener.js, line 458: TypeError: reply[0] is undefined
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:750:13
+
+JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 1630: TypeError: subject.QueryInterface is not a function
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 1630: TypeError: subject.QueryInterface is not a function
+JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 1630: TypeError: subject.QueryInterface is not a function
+JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 1630: TypeError: subject.QueryInterface is not a function
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+[Parent 9396, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 9396, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/base/process_util_win.cc, line 188
+JavaScript error: resource:///modules/sessionstore/SessionSaver.jsm, line 180: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIAppShellService.hiddenDOMWindow]
+1547477698478	Marionette	INFO	Stopped listening on port 57645
+le z:/1547476886869	Marionette	INFO	Stopped listening on port 57791
+empting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:750:13
+
+JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 1630: TypeError: subject.QueryInterface is not a function
+[Parent 9304, Gecko_IOThread] WARNING: pipe error: 232: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 513
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+[Parent 9304, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+JavaScript error: resource:///modules/sessionstore/SessionSaver.jsm, line 180: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIAppShellService.hiddenDOMWindow]
+WARNING: At least one completion condition is taking too long to complete. Conditions: [{"name":"Places Connection shutdown","state":{"progress":{}},"filename":"z:/build/build/src/toolkit/components/places/Database.cpp","lineNumber":525,"stack":["jar:file:///D:/Program%20Files%20(x86)/Mozilla%20Firefox/omni.ja!/components/nsAsyncShutdown.js:addBlocker:152","resource://gre/modules/PlacesUtils.jsm:null:1788","resource://gre/modules/XPCOMUtils.jsm:get:129","resource://gre/modules/PlacesUtils.jsm:getFolderContents:1156","jar:file:///D:/Program%20Files%20(x86)/Mozilla%20Firefox/browser/omni.ja!/components/nsBrowserGlue.js:getToolbarFolderCount:2186","jar:file:///D:/Program%20Files%20(x86)/Mozilla%20Firefox/browser/omni.ja!/components/nsBrowserGlue.js:_maybeToggleBookmarkToolbarVisibility:2192","jar:file:///D:/Program%20Files%20(x86)/Mozilla%20Firefox/browser/omni.ja!/components/nsBrowserGlue.js:BG__migrateUI:2216","jar:file:///D:/Program%20Files%20(x86)/Mozilla%20Firefox/browser/omni.ja!/components/nsBrowserGlue.js:BG__beforeUIStartup:1017","jar:file:///D:/Program%20Files%20(x86)/Mozilla%20Firefox/browser/omni.ja!/components/nsBrowserGlue.js:BG_observe:719"]}] Barrier: profile-before-change
+1547477643360	Marionette	INFO	Stopped listening on port 57867
+um/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 3640, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/base/process_util_win.cc, line 188
+JavaScript error: resource:///modules/sessionstore/SessionSaver.jsm, line 180: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIAppShellService.hiddenDOMWindow]
+[Child 10640, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1547477637578	Marionette	INFO	Stopped listening on port 58281
+/services-settings/remote-settings.js:750:13
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler ret[Parent 11792, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!![Parent 11272, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+[Parent 11272, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/base/process_util_win.cc, line 188
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shuttinJavaScript error: resource:///modules/sessionstore/SessionSaver.jsm, line 180: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIApJavaScript error: resource:///mo1547477628402	Marionette	INFO	Stopped listening on port 58466
+: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIAppShellService.hiddenDOMWindow]
+1547477628854	Marionette	INFO	Stopped listening on port 58390
+file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_cA content process crashedJavaScript error: resource:///modules/sessionstore/SessJavaScript error: resource:///modules/sessionstore/SessionSaver.jsm, line 180: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (N1547477625007	Marionette	INFO	Stopped listening on port1547477627032	Marionette	INFO	Stopped listening on port 58533
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+anifest: Invalid host permission: about:reader*
+[GFX1]: Crash during D3D11 device creation
+1547477492413	Marionette	INFO	Listening on port 58844
+1547477492732	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 12896, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 12896, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 13592, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 13848, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 13848, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+JavaScript error: resource:///modules/sessionstore/SessionSaver.jsm, line 180: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIAppShellService.hiddenDOMWindow]
+1547477624836	Marionette	INFO	Stopped listening on port 58844
+chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[Parent 10464, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/base/process_util_win.cc, line 188
+[Child 15236, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 1547477625476	mozrunner::runner	INFO	Running command: "d:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\IKISAR~1\\AppData\\Local\\Temp\\rust_mozprofile.mgm0ONmwScfl"
+1547477635362	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1547477635362	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+[Parent 14556, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11564, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11564, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+console.error: "Could not write session state file " (new Error("_initWorker called too early! Please read the session file from disk first.", "resource:///modules/sessionstore/SessionFile.jsm", 334)) "_initWorker/<@resource:///modules/sessionstore/SessionFile.jsm:334:15\n_initWorker@resource:///modules/sessionstore/SessionFile.jsm:327:12\n_postToWorker@resource:///modules/sessionstore/SessionFile.jsm:351:11\nwrite@resource:///modules/sessionstore/SessionFile.jsm:390:19\nwrite@resource:///modules/sessionstore/SessionFile.jsm:63:12\n_writeState@resource:///modules/sessionstore/SessionSaver.jsm:357:12\n_saveState@resource:///modules/sessionstore/SessionSaver.jsm:295:12\n_saveStateAsync@resource:///modules/sessionstore/SessionSaver.jsm:341:5\nsaveStateAsyncWhenIdle@resource:///modules/sessionstore/SessionSaver.jsm:192:9\n"
+1547477652420	Marionette	INFO	Listening on port 59002
+1547477653879	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:750:13
+

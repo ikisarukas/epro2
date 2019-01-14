@@ -6,6 +6,7 @@ from selenium import webdriver
 
 
 
+
 class ZhilianSpider(scrapy.Spider):
     name = 'zhilian'
     allowed_domains = ['zhaopin.com']
@@ -32,8 +33,16 @@ class ZhilianSpider(scrapy.Spider):
 
     def parse_index(self, response):
         # index=response.xpath("//div[@id='listContent']//a[@class='contentpile__content__wrapper__item__info']/@href").extract()
-        # index = response.xpath("//body").extract()
-        index = response.xpath("//body").extract()
-        print("index====",index)
-        for i in index:
+        index = response.xpath("//div[@id='listContent']//a[@class='contentpile__content__wrapper__item__info']/@href").extract()
+        company= response.xpath("//div[@id='listContent']//a[@class='contentpile__content__wrapper__item__info__box__cname__title company_title']/text()").extract()
+        jobs = response.xpath(
+            "//div[@id='listContent']//span[@class='contentpile__content__wrapper__item__info__box__jobname__title']/@title").extract()
+
+        for i in jobs:
             print(i)
+        # with open("test.txt","a",encoding='utf-8') as fp:
+        #     for i in index:
+            #     print(i)
+            #     i=str(i)
+            #     fp.write(i)
+            #     print("over")
